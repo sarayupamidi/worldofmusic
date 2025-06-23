@@ -1,0 +1,202 @@
+#pages{
+    display: flex;
+    justify-content: flex-end;
+    padding-left:1080px ;
+}
+#pages a{
+    color: black;
+}
+#pages hr{
+    border: 1px solid black;
+    height: 50px;
+}
+hr{
+    border: 1px solid white;
+}
+/*................indexpage.................*/
+#indexpage{
+    background: url(./background1.jpg);
+    background-repeat: no-repeatS;
+    background-size: cover;
+}
+#mid{
+    text-align: center;
+    margin-top: 200px;
+    font-size:xx-large;
+}
+#mid:hover{
+    color: black;
+    animation: color 1s 0.1s infinite ;
+}
+@keyframes color{
+    0%{
+        color: black;
+    }
+    50%{
+        color:lightblue;
+    }
+    100%{
+        color: black;
+    }
+}
+/*.............login page..............*/
+#url{
+    text-align: center;
+    height: 340px;
+    color: black;
+    padding-top: 90px;
+}
+#loginpage{
+    margin-left: 330px;
+    margin-top: 100px;
+    background: url(./background.jpg);
+    background-size:cover ;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1.5px solid black;
+    text-align: center;
+    margin-right: 370px;
+    border-radius: 40px;
+}
+#url label{
+    font-size: x-large;
+}
+input[type="text"]{
+    height: 20px;
+    width: 300px;
+}
+input[type="password"]{
+    height: 20px;
+    width: 300px;
+}
+input[type="submit"]{
+    height: 30px;
+    width: 90px;
+    background-color: bisque;
+}
+/*...........signup page...............*/
+#signuppage{
+    text-align: center;
+    padding-top: 90px;
+    background: url(./background.jpg);
+    background-size: cover;
+    margin-left: 330px;
+}
+#sign{
+    height: 340px;
+    width: 600px;
+    border: 1.5px solid black;
+    color: black;
+    padding-top: 60px;
+    border-radius: 30px;
+}
+#sign label{
+    font-size: x-large;
+}
+/*.............homepage...............*/
+#homepage1 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+#homepage{
+    text-align: center;
+    background: url(./background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#homes{
+    color: black;
+    font-size: larger;
+}
+#mass{
+    color: black;
+    font-size: x-large;
+}
+#arjit{
+    margin-right: 55px;
+}
+#taylor{
+    margin-right: 55px;
+}
+#taylor:hover{
+    transform: scale(1.25);
+    transition: 0.35s ease-in-out;
+}
+#arjit:hover{
+    transform: scale(1.25);
+    transition: 0.35s ease-in-out;
+}
+#justin:hover{
+    transform: scale(1.25);
+    transition: 0.35s ease-in-out;
+}
+/*............arjit singh.............*/
+#ars{
+    text-align: center;
+    background: linear-gradient(to right,black, white, black);
+}
+#artist1 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+#arsingh{
+    margin-top: 90px;
+}
+#ardeva{
+    margin-left: 60px;
+}
+#arphir{
+    margin-left: 60px;
+}
+#artist1 img:hover{
+    transform: scale(1.25);
+    transition: 0.35s ease-in-out; 
+}
+/*............taylor page..............*/
+#tay{
+    text-align: center;
+    background: linear-gradient(to right,black, white, black);
+}
+#artist2 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+#artist2 img:hover{
+    transform: scale(1.25);
+    transition: 0.35s ease-in-out; 
+}
+#tswift{
+    margin-top: 90px;
+}
+#tsbadblood{
+    margin-left: 60px;
+}
+#tsshakeitoff{
+    margin-left: 60px;
+}
+/*...........Justin Page............*/
+#jbs{
+    text-align: center;
+    background: linear-gradient(to right,black, white, black);
+}
+#artist3 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+#artist3 img:hover{
+    transform: scale(1.25);
+    transition: 0.35s ease-in-out; 
+}
+#jbieber{
+    margin-top: 90px;
+}
+#jbeenie{
+    margin-left: 60px;
+}
+#jbstay{
+    margin-left: 60px;
+}
